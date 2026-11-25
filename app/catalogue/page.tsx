@@ -12,13 +12,13 @@ export default function CataloguePage() {
             RUBY
           </h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-[var(--muted)]">
-            A digital material catalogue for reviewing RUBY color samples from the supplied collection.
+            Danh mục vật liệu kỹ thuật số dùng để xem và tham khảo các mẫu màu RUBY từ bộ sưu tập được cung cấp.
           </p>
         </div>
         <div className="border-l border-[var(--line)] pl-6">
-          <p className="font-editorial text-4xl leading-tight">{rubyColors.length} sample colors</p>
+          <p className="font-editorial text-4xl leading-tight">{rubyColors.length} Mã Màu </p>
           <p className="mt-4 text-sm leading-7 text-[var(--muted)]">
-            Browse by code or material category, and download any sample directly.
+            Duyệt theo mã hoặc danh mục vật liệu, và tải xuống bất kỳ mẫu nào trực tiếp.
           </p>
           <Link
             href="#collection"

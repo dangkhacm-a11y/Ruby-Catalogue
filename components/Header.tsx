@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const links = [
-  { href: "/catalogue", label: "Color Collection" },
+  { href: "/catalogue", label: "Bộ sưu tập" },
   { href: "/visual", label: "3D Visual" }
 ];
 
